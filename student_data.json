@@ -1,0 +1,53 @@
+{
+  "students": {
+    "bilal": {
+      "attempts": [
+        {
+          "timestamp": "2026-04-25T13:39:24.397556",
+          "topic": "math",
+          "question": "What is 5 x 3?",
+          "student_answer": "12",
+          "correct": false,
+          "score": 8,
+          "feedback": "Your answer is incorrect because you multiplied 5 and 3 incorrectly, the correct result of 5 x 3 is 15, not 12. Make sure to review your multiplication facts to avoid similar mistakes in the future."
+        },
+        {
+          "timestamp": "2026-04-25T14:56:37.652980",
+          "topic": "math",
+          "question": "Solve for x: 2x + 5 = 11",
+          "student_answer": "13",
+          "correct": false,
+          "score": 0,
+          "feedback": "The student's answer is incorrect because they did not properly isolate the variable x, to solve for x, we need to subtract 5 from both sides of the equation and then divide by 2, which gives us x = (11 - 5) / 2 = 3."
+        }
+      ],
+      "weak_topics": {
+        "math": {
+          "attempts": 2,
+          "wrong": 2
+        }
+      }
+    },
+    "naheel": {
+      "attempts": [
+        {
+          "timestamp": "2026-04-25T15:40:49.869765",
+          "topic": "science",
+          "question": "What is the process called when plants make their own food from sunlight, water, and air?",
+          "student_answer": "photosynthesis",
+          "correct": true,
+          "score": 10,
+          "feedback": "The student's answer is correct, as photosynthesis is indeed the process by which plants make their own food from sunlight, water, and air. However, it would be more conventional to capitalize the first letter of the word, as it is a proper scientific term, so the preferred answer would be \"Photosynthesis\"."
+        }
+      ],
+      "weak_topics": {
+        "science": {
+          "attempts": 1,
+          "wrong": 0
+        }
+      }
+    }
+  },
+  "overnight_insights": [],
+  "model_version": 2
+}
