@@ -10,9 +10,9 @@ import datetime
 import threading
 import importlib.util
 from pathlib import Path
-from dotenv import load_dotenv
 
-load_dotenv()
+
+
 import streamlit as st
 import openai
 
@@ -242,6 +242,8 @@ def chat(messages, temperature=0.7):
         max_tokens=800,
     )
     return response.choices[0].message.content.strip()
+
+st.secrets["GROQ_API_KEY"]
 
 # ── data helpers ──────────────────────────────────────────────────────────────
 def load_data():
